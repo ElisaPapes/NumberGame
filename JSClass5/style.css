@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+
+  /* Torna o body display grid */
+  display: grid; 
+  /* Deixa todos os filhos do body no centro */
+  place-items: center;
+  /* Deixa o body do tamanho da tela  */
+  height: 100vh;
+}
+
+.hide{
+  display: none;
+}
+
+main{
+  background: #FFFFFF;
+  box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+  border-radius: .6rem;
+
+  /* Tamanho da largura será o menor valor entre 42.8 rem e 90% do tamanho da tela. Esse caso é válido caso a tela seja pequena */
+  width: min(42.8rem, 90%); 
+
+  margin-top: -2rem;
+
+  text-align: center;
+}
+
+button{
+  background-color: #7879F1;
+  border-radius: 0 .4rem .4rem;
+
+  padding: 1.6rem;
+
+  color: #FFFFFF;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+
+  cursor: pointer;
+
+  transition: background .2s;
+}
+
+button:hover{
+  background-color: #34355B;
+}
+
+/* screen 1 */
+
+body, button, input{
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+
+  margin-top: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+p{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(52, 53, 91, 0.8);
+
+  margin-bottom: 4.8rem;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 6.4rem;
+
+}
+
+input, button{
+  border: none;
+  padding: 1.6rem;
+}
+
+input{
+  background-color: #DCE2E9;
+  border-radius: 4px 0px 0px 4px;
+
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+
+  color: #34355B;
+
+  width: 4.3rem;
+}
+
+
+
+h2{
+  margin-top: 4.8rem;
+  margin-bottom: 3.3rem;
+
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  color: #34355B;
+}
+
+.screenTwo button{
+  border-radius: .4rem;
+  margin-bottom: 6.4rem;
+}
